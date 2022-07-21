@@ -81,3 +81,4 @@ tar -cf /rmmbackups/rmm-backup-${dt_now}.tar -C ${tmp_dir} .
 rm -rf ${tmp_dir}
 
 echo -ne "${GREEN}Backup saved to /rmmbackups/rmm-backup-${dt_now}.tar${NC}\n"
+
